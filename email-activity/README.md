@@ -14,10 +14,11 @@ Install these by running each at a time.
 
       1. pip install json
 	2. pip install psycopg2
-	2. pip install pandas 
-	4. pip install sqlalchemy
-	5. pip install styleframe
-	6. pip install --user --upgrade "sqlalchemy<2.0"
+	3 pip install numpy
+	4. pip install pandas 
+	5. pip install sqlalchemy
+	6. pip install styleframe
+	7. pip install --user --upgrade "sqlalchemy<2.0"
 
 
 2. Before running the report check the 'config_Customer_Email_Analysis' json file. The report will be generated based on the dates mentioned under "filter_system_modstamp". The report is eventually generated from the date mentioned here to till date.
